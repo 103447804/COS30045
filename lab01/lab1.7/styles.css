@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+}
+h1 {
+  color: rgb(78, 118, 132);
+}
+h2 {
+  color: rgb(122, 122, 122);
+  text-decoration: underline;
+  font-size: medium;
+}
+li {
+  font-weight: bold;
+}
+#petChart {
+  width: 60%;
+  margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+figcaption {
+  width: 60%;
+  font-size: small;
+  font-style: italic;
+}
+#buttons {
+  display: flex;
+}
+.selected {
+  border-width: 3px;
+  border-color: rgb(230, 126, 23);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button {
+  background-color: rgb(160, 222, 239);
+  border-color: rgb(41, 41, 114);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+footer {
+  margin-top: 10%;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgba(78, 118, 132, 0.35);
+  padding: 2px;
+}

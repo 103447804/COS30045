@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation Exercise 1" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Chloe Ballantyne" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <title>Task 1.1 HTML and CSS Demo Page</title>
+  </head>
+  <body>
+    <h1>Pets and the Pandemic</h1>
+    <h2>Animal Medicines Australia</h2>
+    <p>
+      A report from Animal Medicines Australia (AMA) has found that many
+      Australians took the opportunity to introduce a pet into their household
+      during the pandemic. Their survey indicated that there was a significant
+      increase in the percent of households taking in a new dog, fish or bird.
+      Their research also indicated that pets had a number of positive
+      influences on their lives such as:
+    </p>
+    <ul>
+      <li>Companionship</li>
+      <li>Better Mental Health</li>
+      <li>Joy and Happiness</li>
+    </ul>
+    <div id="buttons">
+      <button class="selected" id="2019button" onclick="changeChartTo2019()">
+        2019
+      </button>
+      <button id="2021button" onclick="changeChartTo2021()">2021</button>
+      <button id="bothButton" onclick="changeChartToBoth()">Both</button>
+    </div>
+    <figure>
+      <img
+        id="petChart"
+        src="2019chart.png"
+        alt="chart of pet ownership in 2019"
+      />
+      <figcaption id="figCaption">
+        Fig 1. Percent of most popular pets owned by Australians in 2019
+      </figcaption>
+    </figure>
+
+    <p>
+      With the increase in pet ownership the AMA are encouraging policy makers
+      to consider the needs of companion animals and their owners when
+      considering rental, strata and body corporate regulations are well as
+      accepting animals in public places and transport.
+    </p>
+  </body>
+  <footer>
+    <p>COS30045 Data Visualisation</p>
+    <p>Teaching Period 2 2024</p>
+  </footer>
+</html>
