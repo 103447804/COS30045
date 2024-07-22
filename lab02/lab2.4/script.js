@@ -23,7 +23,7 @@ function barChart() {
       return d.wombats * 4;
     })
     .attr("fill", function (d) {
-      return "rgb(0, " + Math.round(d.wombats * 10) + ", 0)";
+      return "rgb(0, " + Math.round(d.wombats * 7) + ", 0)";
     });
 
   svg
